@@ -1,22 +1,24 @@
 @font-face {
 
-  font-family: 'Open Sans';
+  font-family: 'Hind Siliguri';
   font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
 
   color: #000000;
   /* Браузер сначала попробует найти шрифт локально */
-  src: local("Open Sans"),
+  src: local("Hind Siliguri"),
     /* Если не получилось, загрузит woff2 */
-    url("/fonts/OpenSans-Italic-VariableFont_wdth,wght.woff2") format("woff2"),
+    url("/fonts/HindSiliguri-Regular.woff2") format("woff2"),
     /* Если браузер не поддерживает woff2, загрузит woff */
-    url("/fonts/OpenSans-Italic-VariableFont_wdth,wght.woff") format("woff"),
-    url("/fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf") format("woff"),
-    url("/fonts/OpenSans-Italic-VariableFont_wdth,wght.eot") format("eot");
+    url("/fonts/HindSiliguri-Regular.woff") format("woff"),
+    url("/fonts/HindSiliguri-Regular.ttf") format("woff"),
+    url("/fonts/HindSiliguri-Regular.eot") format("eot");
 }
 
 /* Теперь можно использовать шрифт */
-h3 {
-  font-family: "Open Sans", "Arial", sans-serif;
+.sale {
+  font-family: "Hind Siliguri", "Arial", sans-serif;
 }
 
 @font-face {
